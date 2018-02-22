@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is Matching]]>
+    </line>
+    <line>
+      <![CDATA[ErrMsg is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="180355" started-at="2018-02-22T10:08:01Z" finished-at="2018-02-22T10:11:01Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:MavenProject.MavenTestProject.ValidLogin@4667ae56]" name="testValidLogin" class="MavenProject.MavenTestProject.ValidLogin"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:MavenProject.MavenTestProject.InvalidLogin@77cd7a0]" name="testInvalidLogin" class="MavenProject.MavenTestProject.InvalidLogin"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Test" duration-ms="180355" started-at="2018-02-22T10:08:01Z" finished-at="2018-02-22T10:11:01Z">
+      <class name="MavenProject.MavenTestProject.InvalidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:MavenProject.MavenTestProject.InvalidLogin@77cd7a0]" name="openApplication" is-config="true" duration-ms="71982" started-at="2018-02-22T15:39:45Z" finished-at="2018-02-22T15:40:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:MavenProject.MavenTestProject.InvalidLogin@77cd7a0]" name="testInvalidLogin" duration-ms="2266" started-at="2018-02-22T15:40:57Z" finished-at="2018-02-22T15:41:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ErrMsg is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:MavenProject.MavenTestProject.InvalidLogin@77cd7a0]" name="closeApplication" is-config="true" duration-ms="1668" started-at="2018-02-22T15:41:00Z" finished-at="2018-02-22T15:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLogin.testInvalidLogin()[pri:2, instance:MavenProject.MavenTestProject.InvalidLogin@77cd7a0] output=ErrMsg is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- MavenProject.MavenTestProject.InvalidLogin -->
+      <class name="MavenProject.MavenTestProject.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:MavenProject.MavenTestProject.ValidLogin@4667ae56]" name="openApplication" is-config="true" duration-ms="85386" started-at="2018-02-22T15:38:01Z" finished-at="2018-02-22T15:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:MavenProject.MavenTestProject.ValidLogin@4667ae56]" name="testValidLogin" duration-ms="16609" started-at="2018-02-22T15:39:26Z" finished-at="2018-02-22T15:39:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:MavenProject.MavenTestProject.ValidLogin@4667ae56]" name="closeApplication" is-config="true" duration-ms="2217" started-at="2018-02-22T15:39:43Z" finished-at="2018-02-22T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:MavenProject.MavenTestProject.ValidLogin@4667ae56] output=Title is Matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- MavenProject.MavenTestProject.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
